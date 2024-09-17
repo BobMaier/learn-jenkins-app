@@ -111,6 +111,7 @@ pipeline {
             steps {
                 sh '''
                     npx playwright test  --reporter=html
+                    mkdir -p Prod-playwright-report
                 '''
             }
 
