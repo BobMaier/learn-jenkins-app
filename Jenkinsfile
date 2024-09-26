@@ -24,9 +24,7 @@ pipeline {
                         aws s3 ls
                     '''
                 }
-                git add .
             }
-
         }
 
         stage('Build') {
